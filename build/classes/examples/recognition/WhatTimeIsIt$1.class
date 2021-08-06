@@ -1,0 +1,16 @@
+dImage")));
+            this.ClientSize = new System.Drawing.Size(619, 299);
+            this.ControlBox = false;
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.dataGroupBox);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Sizable;
+            this.Name = "Connection";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Virtual Clinic";
+            this.TopMost = true;
+            this.Load += new System.EventHandler(this.Connection_Load);
+            this.dataGroupBox.ResumeLayout(false);
+            this.dataGroupBox.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ConfigButton)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.loggingButton)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture
